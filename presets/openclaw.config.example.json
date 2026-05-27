@@ -1,0 +1,23 @@
+{
+  "routing": {
+    "default_agent": "main",
+    "allow_direct_web_researcher": true,
+    "complexity_triggers": [
+      "multi_source_verification",
+      "technical_evaluation",
+      "architecture_decision",
+      "explicit_user_request"
+    ]
+  },
+  "tools": {
+    "main": {
+      "search_provider": "duckduckgo",
+      "perplexity_enabled": false
+    },
+    "web_researcher": {
+      "perplexity_enabled": true,
+      "file_write_enabled": false,
+      "dangerous_ops_enabled": false
+    }
+  }
+}

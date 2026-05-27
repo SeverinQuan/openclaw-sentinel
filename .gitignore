@@ -1,0 +1,12 @@
+.env
+*.env
+secrets/
+*.key
+*.pem
+id_rsa
+id_ed25519
+openclaw.json.backup*
+node_modules/
+__pycache__/
+.DS_Store
+memory/
